@@ -96,20 +96,6 @@ const Index = () => {
             </Button>
           </div>
 
-          {/* Server ID */}
-          <div className="mb-8">
-            <div className="bg-purple-900/30 rounded-lg p-6 border border-purple-700">
-              <h3 className="text-purple-300 text-lg font-semibold mb-2">
-                ID сервера:
-              </h3>
-              <div className="bg-purple-950 rounded-lg p-4">
-                <code className="text-purple-200 font-mono text-xl">
-                  1091852388299702422
-                </code>
-              </div>
-            </div>
-          </div>
-
           {/* Server Info Cards */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mt-16">
             <Card className="bg-purple-900/50 border-purple-700">
