@@ -83,11 +83,31 @@ const Index = () => {
             <Button
               variant="outline"
               size="lg"
+              onClick={() =>
+                window.open(
+                  "https://discord.gg/distorting-scp-foundation-1091852388299702422",
+                  "_blank",
+                )
+              }
               className="border-pink-500 text-pink-400 hover:bg-pink-500 hover:text-white px-8 py-4 text-lg font-semibold transition-all duration-300"
             >
               <Icon name="Users" className="mr-2" size={20} />
               DISCORD
             </Button>
+          </div>
+
+          {/* Server ID */}
+          <div className="mb-8">
+            <div className="bg-purple-900/30 rounded-lg p-6 border border-purple-700">
+              <h3 className="text-purple-300 text-lg font-semibold mb-2">
+                ID сервера:
+              </h3>
+              <div className="bg-purple-950 rounded-lg p-4">
+                <code className="text-purple-200 font-mono text-xl">
+                  1091852388299702422
+                </code>
+              </div>
+            </div>
           </div>
 
           {/* Server Info Cards */}
